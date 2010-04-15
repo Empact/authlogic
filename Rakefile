@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "authlogic"
+    gem.name = "Empact-authlogic"
     gem.summary = "A clean, simple, and unobtrusive ruby authentication solution."
     gem.email = "bjohnson@binarylogic.com"
     gem.homepage = "http://github.com/binarylogic/authlogic"
-    gem.authors = ["Ben Johnson of Binary Logic"]
+    gem.authors = ["Ben Johnson of Binary Logic", "Ben Woosley"]
     gem.rubyforge_project = "authlogic"
     gem.add_dependency "activesupport"
   end

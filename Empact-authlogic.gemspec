@@ -4,12 +4,12 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{authlogic}
-  s.version = "2.1.3"
+  s.name = %q{Empact-authlogic}
+  s.version = "2.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Ben Johnson of Binary Logic"]
-  s.date = %q{2009-11-12}
+  s.authors = ["Ben Johnson of Binary Logic", "Ben Woosley"]
+  s.date = %q{2010-04-15}
   s.email = %q{bjohnson@binarylogic.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -18,11 +18,11 @@ Gem::Specification.new do |s|
   s.files = [
     ".gitignore",
      "CHANGELOG.rdoc",
+     "Empact-authlogic.gemspec",
      "LICENSE",
      "README.rdoc",
      "Rakefile",
      "VERSION.yml",
-     "authlogic.gemspec",
      "generators/session/session_generator.rb",
      "generators/session/templates/session.rb",
      "init.rb",
@@ -146,7 +146,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{authlogic}
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{A clean, simple, and unobtrusive ruby authentication solution.}
   s.test_files = [
     "test/acts_as_authentic_test/base_test.rb",
