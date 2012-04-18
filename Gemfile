@@ -6,6 +6,6 @@ group :test do
   gem 'bcrypt-ruby'
   gem 'jeweler'
   gem 'rake'
-  gem 'ruby-debug19'
+  gem 'debugger', require: false
   gem 'sqlite3'
 end
