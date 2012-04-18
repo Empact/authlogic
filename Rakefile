@@ -21,7 +21,8 @@ end
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
   test.libs << 'test'
-  test.pattern = 'test/**/*_test.rb'
+  # Work around a Rake::TestTask bug: https://github.com/jimweirich/rake/issues/51
+  test.test_files = FileList['test/**/*_test.rb']
   test.verbose = true
 end
 
